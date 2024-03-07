@@ -4,9 +4,14 @@ namespace PowTwoUntil
 {
     class Program
     {
+        /// <summary>
+        /// Invokes method PowersOf2Until5 twice
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            PowersOf2Until5();
+            PowersOf2Until5();
         }
 
         /// <summary>
